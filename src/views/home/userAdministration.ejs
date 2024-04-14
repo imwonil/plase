@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<head> 
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/home/userAdministration.css">
+  <script src="/js/home/userAdministration.js" defer></script>
+
+</head>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+
+	
+    <title>Document</title>
+
+<body>
+ <h2>회원관리</h2>
+ 
+ <div class = box >
+      
+     <ul class="menuCategorys">
+
+      <li><a >이용권</a></li> 
+      <!-- <li><a >구매회원</a></li>  -->
+      <li><a href="/userAdministrationTotall">전체회원</a></li>  
+    
+    
+    </ul>
+      </div>
+    
+      <ul class="tab">
+        <li class="tab__item active" id="daysType">
+          <a href="#tab1">기간관</a>
+          
+    
+        </li>
+        <li class="tab__item" id="time">
+          <a href="#tab2">충전권</a>
+        </li> 
+        <li class="tab__item" id="fixedType">
+          <a href="#tab3">고정석</a>
+        </li>
+        
+      </ul> 
+    
+    <!-- 탭 내용 영역 //////////////////////////////////// -->
+    <!-- 일일 매출표 -->
+    <div class="tab__content-wrapper" >
+       <div id="tab1" class="tab__content active" >
+           <table class="afternoon-session" cellspacing="1" id="po">
+          <tbody>
+             <tr>
+               <th scope="row">이름</th>
+              <th scope="row">전화번호</th>
+               <th scope="row">상품타입</th>
+               <th scope="row">남은시간</th>
+         
+               <tbody class = "k">
+                </tbody>
+             </tr>
+            </tbody>
+          
+         </table>
+         
+      </div>
+     
+      <!-- 월 매출표-->
+      <div id="tab2" class="tab__content">
+        <table class="afternoon-session" cellspacing="1">
+          <tbody>
+             <tr>
+              <th scope="row">이름</th>
+              <th scope="row">전화번호</th>
+               <th scope="row">상품타입</th>
+               <th scope="row">남은시간</th>
+         
+         
+             </tr>
+            </tbody>
+            <tbody class = "ree"></tbody>
+         </table>
+         <h3 id="momentTotall"></h3>
+         </div>
+  <!-- 년 매출표 -->
+        <div id="tab2" class="tab__content">
+        <table class="afternoon-session" cellspacing="1">
+         
+          <tbody>
+             <tr>
+              <th scope="row">이름</th>
+              <th scope="row">전화번호</th>
+               <th scope="row">상품타입</th>
+               <th scope="row">남은시간</th>
+                 
+             </tr>
+             
+            </tbody>
+            <tbody class = "rs">
+         </table>
+</div>
+  
+<body>
+ 
+  <div class="pagination-container">
+  
+    <div class="number-button-wrapper"><span class="number-button">1</span></div>
+    
+  </div>
+  
+</body>
+
+
+
+ 
+    
+  
+  
+
+
+
+
+</html>
+
+
+

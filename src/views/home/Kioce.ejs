@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/Kioce.css">
+    
+    
+    
+  <html xmlns="http://www.w3.org/1999/xhtml">
+	<html lang="ko">
+
+	<head>     
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+	
+   
+    <title>Document</title> 
+
+<body> 
+  <ul class="tab">
+    <li class="tab__item active">
+      <a href="#tab1">정기권</a>
+      
+
+    </li>
+    <li class="tab__item">
+      <a href="#tab2">충전권</a>
+    </li> 
+    <li class="tab__item">
+      <a href="#tab3">일일권</a>
+    </li>
+    
+  </ul>
+  
+  <!-- 탭 내용 영역 //////////////////////////////////// -->
+  <!-- 고정석 -->
+  <div class="tab__content-wrapper">
+     <div id="tab1" class="tab__content active" >
+         <table class="afternoon-session" cellspacing="1">
+        <tbody id = "k">
+           <tr>
+           
+            <th scope="row">상품 이름</th>
+            <th scope="row">금액 </th>
+             <th scope="row">상태</th>
+             <th scope="row">유효기간</th>
+       
+             <!-- <th scope="row">등록일</th> -->
+           </tr>
+          </tbody>
+        
+       </table>
+    </div>
+   
+    <!-- 충전권-->
+    <div id="tab2" class="tab__content">
+      <table class="afternoon-session" cellspacing="1">
+        <tbody id = "ree">
+           <tr>
+            <th scope="row">상품 이름</th>
+            <th scope="row">금액 </th>
+             <th scope="row">상태</th>
+             <th scope="row">유효기간</th>
+           </tr>
+          </tbody>
+        
+       </table>
+       </div>
+
+      <div id="tab2" class="tab__content">
+      <table class="afternoon-session" cellspacing="1">
+        <tbody id = "rs">
+           <tr>
+            <th scope="row">상품 이름</th>
+            <th scope="row">금액 </th>
+             <th scope="row">상태</th>
+             <th scope="row">유효기간</th>
+       
+             <!-- <th scope="row">등록일</th> -->
+           </tr>
+          </tbody>
+        
+       </table>
+       </div>
+   
+  </div>
+
+  <!--별개 -->
+  <!-- <div>
+  <table>
+    <!--  가로 정렬 제목 -->
+    <!-- <thead>
+      <tr>
+        <th>상품명</th>
+        <th>금액</th> -->
+      
+      <!-- </tr>
+    </thead> -->
+    <!-- 새로 정렬 내용 -->
+    <!-- <tbody id="test_table">
+         
+    </tbody>
+  </table> -->
+  <!-- </div>   --> 
+ 
+  
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<html lang="ko">
+
+	<head>     
+	<meta charset="utf-8">
+	<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+	
+	
+
+
+<body>
+
+	<form name="form" method="post">
+
+		<div class="a">
+		
+		<table>	
+			<tr align="center">
+			
+			</tr>
+		</table> 
+
+    
+	   <li><a id="cads"> </a></li> 
+ 
+
+	<h2 id="cad"> <h2>
+
+<from>  
+<table align="center" cellspacing="0" cellpadding="0" >
+	<tr bgcolor="blue" align ="center">	</tr>
+	<td style="display:none" ><input type="radio" name="myRadios" onclick="handleClick();" value="credit_cancel"/>신용취소</td>
+
+	<tr align="left" style="display:none" >
+		<td >할부 : <input type="text" name="halbu" value="00"></td>
+			<!-- 아래부분 결재 금액  -->
+		<td type="text" id = "Money"name="money" > 상품 구매 </td>  
+	</tr>
+	
+<br>
+<!-- SendDdata : 결제해 해당  데이타 보냄 RecvData 보낸 데이타정보를 받아옴 -->
+<input style="display:none" type="text" name="SendData" size="100"><br><br>
+<textarea style="display:none" name="RecvData" cols="100" rows="5"></textarea>
+<br><br>
+
+<div class="modal hidden">
+    
+	<div class="bg"></div>  
+     <div class="modalBox">
+      <h2 id="feeName"> 금액 </h2>
+		 
+         
+    
+		<select name="likeLanguage" id="seet" class="pl">
+
+            <option value="00">할부 개월 수</option>
+            <option value = "00">1 개월</option>
+            <option value = "02">2 개월</option>
+            <option value = "03">3 개월</option>
+            <option value = "04">4 개월</option>
+            <option value = "05">5 개월</option>
+            <option value = "06">6 개월</option>
+            <option value = "07">7 개월</option>
+        </select>
+        <div class = "menuCategory"> 
+          <li><a href="javascript:reqVCAT_HTTP()">결제하기</a></li> 
+          <li><a class="closeBtn " href="/kioce">닫기</a></li> 
+         </div>
+		
+	</div>
+</div>
+
+</div> 
+</form>
+
+
+<script type="text/javascript" src="/js/home/jquery-1.9.1.min.js" ></script>
+
+
+<script type="text/javascript" src="/js/home/kioce.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script> 
+</body>
+
+</html>

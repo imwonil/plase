@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.menuCategory {   
+  zoom: 1;
+  overflow: hidden;
+  padding: 0px 1% 10px;
+  margin: 2% 1  1%;
+  /* box 안에서 위  */
+  top:200px;}
+  
+
+.menuCategory li {
+      
+  list-style:none;
+  float: left;
+  width: 30%;
+   /* 옆크기 */
+  min-width: 19px;
+  color: #c0b0b0;
+  margin: 0% 1%  1%;}
+  /* li a 간에 위 아래 마진, */
+
+    .menuCategory li a {
+      
+      height:47px;
+      /* 높이 */
+      border-radius: 1.3rem;
+      /* 타원형 R value */
+      text-decoration:none;
+      color: #43008f;
+      /* 라인 글 짜색 */
+      display: block;
+     
+      /* li a 크기 */
+      padding: 1px 7px 4px;
+      /* 위 좌우  */
+      font-size: 30px;
+      line-height: 20px;
+      border: 1px solid #ef0303;
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      border: 5px solid #fb8383; 
+      /* 표라인 색상 */
+      -webkit-box-sizing: border-box;}   

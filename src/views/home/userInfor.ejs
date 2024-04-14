@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml"></html>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/userInfor.css">
+   
+    
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <html lang="ko"></html>
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=euc-kr">
+    
+    <link rel="stylesheet" href="/css/home/Kioce.css">
+    
+    
+
+  <html xmlns="http://www.w3.org/1999/xhtml">
+	<html lang="ko">
+
+   
+	<head>     
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=euc-kr">
+	
+    <title>Document</title>
+
+<body>
+  <div class = box1 >
+
+    <ul class="menu">
+       
+           
+       <ul class="menuCategorys">
+ 
+        <li><a style="display:none"></a></li> 
+        <li><a style="display:none"></a></li> 
+        <li><a style="display:none"></a></li>  
+        <li><a style="display:none"></a></li>
+        
+      
+      </ul>
+        
+       </ul>
+  </div>
+
+  <ul class="menuC"> <li><a>상품명</a></li></ul>
+<h1 id = "userName"></h1>
+
+
+  
+
+
+
+  <div class="container" >
+    <h1 id = "setName"  style ="display:none">좌석 번호</h1>
+    
+    
+      
+      <div class="expandable-box" style ="display:none">
+         <h2>남은시간</h2>
+        <p id ="UseTime "></p>
+      </div>
+      
+      <div class="expandable-box"  style ="display:none">
+         <h2>상품 종류</h2>
+        <p id="kind-goods"></p>
+      </div>
+      
+      <!-- <div class="expandable-box">
+         <h2>Box 4</h2>
+        <p>Now we have a box on the next row.</p>
+      </div> -->
+      
+      <div class="expandable-box" id="useSet">
+         <h2>사용하고 중인 자리</h2>
+         
+      </div>
+       
+      <div class="expandable-bo" >
+       
+    
+     </div>
+      <div class="expandable-box" id="useTime" >
+         <h2>상품 남은 시간</h2>
+       
+      </div>
+    </div>
+  </div class="button"> 
+  
+    
+    <button type="button" id="buy" class="button item2" value ="buy">요금제 구매</button>
+    <button type="button" id="start" class="button item3" value ="start">사용하기</button>
+    <button  type="button" id="move" class="button item4" value ="move" style="display:none" >좌석 변경</button>
+    <button  type="button" id="benchselection" class="button item1" value ="benchselection" style="display:none" >자리 선택</button>
+    <button  type="button" id="cad" class="button item5" value ="cad" >신용 취소</button>
+  </body>
+
+</html> 
+
+<form name="form" method="post">
+
+  <div class="a">
+  
+  <table>	
+    <tr align="center">
+    
+    </tr>
+  </table> 
+
+  
+   <li><a id="cads"> </a></li> 
+
+
+<h2 id="cad"> <h2>
+
+<from>  
+<table align="center" cellspacing="0" cellpadding="0" >
+<tr bgcolor="blue" align ="center">	</tr>
+<td style="display:none" ><input type="radio" name="myRadios" onclick="handleClick();" value="credit_cancel"/>신용취소</td>
+<td style="display:none" ><input type="radio" id ="cancel"name="myRadios" />신용취소</td>
+
+<tr align="left" style="display:none" >
+  <td >할부 : <input type="text" name="halbu" value="00"></td>
+    <!-- 아래부분 결재 금액  -->
+  <td type="text" id = "Money"name="money" > 상품 구매 </td>  
+</tr>
+
+<br>
+<!-- SendDdata : 결제해 해당  데이타 보냄 RecvData 보낸 데이타정보를 받아옴 -->
+<input style="display:none" type="text" name="SendData" size="100"><br><br>
+<textarea style="display:none" name="RecvData" cols="100" rows="5"></textarea>
+<br><br>
+
+<div class="modal hidden">
+    
+	<div class="bg"></div>  
+     <div class="modalBox">
+      <h2 id="feeCancal" style="text-align: center;" ></h2> </h2>
+		      <div class = "menuCategory"> 
+          <li><a href="javascript:reqVCAT_HTTP()"> 결제 취소</a></li> 
+          <li><a class="closeBtn " href="/userInfor">닫기</a></li> 
+         </div>
+		
+	</div>
+</div>
+
+</div>
+
+  
+
+</form>
+</body>
+
+</html>
+
+<script type="text/javascript" src="/js/home/jquery-1.9.1.min.js" ></script>
+
+
+<script type="text/javascript" src="/js/home/userInfor.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head> 
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/calender.css">
+    <script src="/js/home/calender.js" defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" ></script>
+   
+    <title>Document</title> 
+</html> 
+<body> 
+  <ul class="tab">
+    <li class="tab__item active" id="OneDay">
+      <a href="#tab1">요일매출</a>
+      
+
+    </li>
+    <li class="tab__item" id="OneMoment">
+      <a href="#tab2">월매출</a>
+    </li> 
+    <li class="tab__item" id="OneYear">
+      <a href="#tab3">년매출</a>
+    </li>
+    
+  </ul>
+  
+  <!-- 탭 내용 영역 //////////////////////////////////// -->
+  <!-- 일일 매출표 -->
+  <div class="tab__content-wrapper" >
+     <div id="tab1" class="tab__content active" >
+         <table class="afternoon-session" cellspacing="1" id="po">
+        <tbody id = "k">
+           <tr>
+           
+            <th scope="row">결제시간</th>
+            <th scope="row">이름</th>
+             <th scope="row">상품타입</th>
+             <th scope="row">금액</th>
+       
+             <!-- <th scope="row">등록일</th> -->
+           </tr>
+          </tbody>
+        
+       </table>
+       <h3 id="dayTotall"></h3>
+    </div>
+   
+    <!-- 월 매출표-->
+    <div id="tab2" class="tab__content">
+      <table class="afternoon-session" cellspacing="1">
+        <tbody id = "ree">
+           <tr>
+            <th scope="row">결제시간</th>
+            <th scope="row">이름</th>
+             <th scope="row">상품타입</th>
+             <th scope="row">금액</th>
+       
+           </tr>
+          </tbody>
+        
+       </table>
+       <h3 id="momentTotall"></h3>
+       </div>
+<!-- 년 매출표 -->
+      <div id="tab2" class="tab__content">
+      <table class="afternoon-session" cellspacing="1">
+        <tbody id = "rs">
+           <tr>
+            <th scope="row">결제기간</th>
+            <th scope="row">이름</th>
+             <th scope="row">상품타입</th>
+             <th scope="row">금액</th>
+       
+       
+             <!-- <th scope="row">등록일</th> -->
+           </tr>
+           
+          </tbody>
+         
+       </table>
+       <h3 id="yearTotall"></h3>
+       </div>
+   
+  </div>
+  <div class =car>
+   
+    <select name="likeLanguage" id="year" class="pl">
+   <option id="years">년도</option>
+  
+  </select>
+  <select name="likeLanguage" id="moment" class="pl">
+    <option id="moments">달</option>
+  
+   </select>
+</div>
+    <div class = box1 >
+        <ul class="menuC">
+             
+           </ul>
+           <h1 id = "userName"></h1>
+           <ul class="menuCategory">
+             <li><a style="height:26px; border:2px solid #ffffff;background-color:#000000;">일</a></li> 
+             <li><a style="height:26px; border:2px solid #ddd;background-color:#000000;">월</a></li> 
+             <li><a  style="height:26px; border:2px solid #ddd;background-color:#000000;">화 </a></li>  
+             <li><a  style="height:26px; border:2px solid #ddd;background-color:#000000;">수</a></li>
+             <li><a style="height:26px; border:2px solid #ddd;background-color:#000000;">목</a></li> 
+             <li><a style="height:26px; border:2px solid #ddd;background-color:#000000;">금</a></li>
+             <li><a  style="height:26px; border:2px solid #ddd;background-color:#000000;" >토</a></li> 
+             <div class="number" > 
+              <li><a></a></li> 
+              <li><a></a></li> 
+              <li><a></a></li>  
+              <li><a></a></li>
+              <li><a></a></li> 
+
+              <li><a></a></li> 
+              <li><a></a></li> 
+              <li><a></a></li>  
+              <li><a></a></li>
+              <li><a></a></li> 
+
+              <li><a></a></li> 
+              <li><a></a></li> 
+              <li><a></a></li>  
+              <li><a></a></li>
+              <li><a></a></li> 
+
+              <li><a></a></li> 
+              <li><a></a></li> 
+              <li><a></a></li>  
+              <li><a></a></li>
+              <li><a></a></li> 
+
+              <li><a></a></li> 
+              <li><a></a></li> 
+              <li><a></a></li>  
+              <li><a></a></li>
+              <li><a></a></li> 
+
+              <li><a></a></li> 
+              <li><a></a></li> 
+              <li><a></a></li>  
+              <li><a></a></li>
+              <li><a></a></li> 
+
+              <li><a></a></li> 
+              <li><a></a></li> 
+              <li><a></a></li>  
+              <li><a></a></li>
+              <li><a></a></li> 
+
+              <li><a></a></li> 
+              <li><a></a></li> 
+              <li><a></a></li>  
+              <li><a></a></li>
+              <li><a></a></li> 
+              
+              
+            </div>
+          
+    <div class= "yearS"> 
+     
+        <div class="ns" > 
+           </div>
+            
+    </div>
+             
+           </ul>
+      </div>
+      
+
+
+</body>

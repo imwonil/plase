@@ -1,0 +1,159 @@
+
+.box{
+    display: block;
+    position: absolute;
+    top: 190px;
+    /* 숫가 높을수록 아래로 */
+    left: 70%;
+    width:100%;
+    
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 1px;
+    z-index: 0;
+    transform:translate(-60%,-30%);
+    /* 숫자가 낮을수록 왼쪽으로 */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-width: 10px;
+    height: calc(100%/0.83);
+  /* 높이 조절 */
+    /* padding: 12px 1px; */
+    border: 1px solid #ffffff;
+    /* 사각틀 라인 두꼐 */
+    border-radius: 0px;
+    /* 사각 r값 */
+    cursor: pointer;
+   
+  }
+.menuCategorys {   
+    zoom: 1;
+    overflow: hidden;
+    padding: 10px 11% 10px;
+    margin: 2% 1  1%;
+    /* box 안에서 위  */
+    top:700px;}
+    
+  
+  .menuCategorys li {
+        
+    list-style:none;
+    float: left;
+    width: 30%;
+     /* 옆크기 */
+  text-decoration: underline;
+    min-width: 19px;
+    color: #000000;
+    margin: 10% 1%  1%;}
+    /* li a 간에 위 아래 마진, */
+  
+      .menuCategorys li a {
+        
+        height:47px;
+        /* 높이 */
+     
+        /* 타원형 R value */
+        text-decoration:none;
+        color: #000000;
+        /* 라인 글 짜색 */
+        display: block;
+       
+        /* li a 크기 */
+        padding: 19px 3px 4px;
+        /* 위 좌우  */
+        font-size: 16px;
+        line-height: 10px;
+        border: 1px solid #ef0303;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        border: 5px solid #fb8383; 
+        /* 표라인 색상 */
+        -webkit-box-sizing: border-box;} 
+
+        .tab {
+            display: flex;
+            align-items: center;
+            padding: 7rem;
+            margin: -22px;
+            transform: translateX( 30%);
+           
+            }
+            .tab__item {
+            padding: 0.6rem 1.9rem;
+            margin-right: 2px;
+            border: -10px solid #ddd;
+            border-radius: 10px;
+            }
+            .tab__item.active {
+            display: inline-block;
+            border: 0px solid #b81c0f;
+            background-color: #b81c0f;
+            color: #fff;
+            }
+            .tab__content-wrapper {
+            padding: 13rem
+            }
+            .tab__content {
+            display: none;
+            }
+            .tab__content.active {
+            display: block;
+            }
+           
+            table {
+                padding:25px;
+           
+                width: 100%;
+                
+                margin: -20% 1%  1%;
+                transform:translate(0%,-2%);
+                
+                }
+                
+                th,
+                td {
+                padding: 20px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+                }
+                /*옮길때 불투명으로 보이는 부분*/
+                tr.dragging {
+                opacity: 2.5;
+                }
+                
+                /* 별개 부분 */
+                a {
+                text-decoration: none;
+                color: inherit;
+                }
+
+                .pagination-container {
+                  display: flex;
+                  justify-content: center;
+                
+                  align-items: center;
+                  padding: 1rem;
+                  margin: 3px;
+                  transform: translateX( -10%);
+                  margin: 1px;
+                }
+                .number-button-wrapper{
+             display: flex;
+            align-items: center;
+            padding: 4rem;
+          
+            margin: -12% 10% ;
+                }
+                .number-button {
+
+                  padding: 4px;
+                  transform: translateX( 100%);
+                  
+                }
